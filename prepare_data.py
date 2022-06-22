@@ -9,8 +9,7 @@
   - Row length of 1
 """
 from sklearn.preprocessing import Binarizer, MinMaxScaler, Normalizer, StandardScaler
-from data import df
-
+from get_data import df
 
 array = df.values
 X = array[:, :8]

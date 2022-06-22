@@ -13,7 +13,7 @@ from sklearn.decomposition import PCA
 from sklearn.ensemble import ExtraTreesClassifier
 from sklearn.feature_selection import RFE, SelectKBest, chi2
 from sklearn.linear_model import LogisticRegression
-from data import df, names
+from get_data import df, names
 
 X = df.values[:, :8]
 y = df.values[:, 8]

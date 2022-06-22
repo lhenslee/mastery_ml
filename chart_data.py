@@ -1,8 +1,3 @@
-
-from matplotlib import pyplot as plt
-import numpy as np
-from data import names, df, pd
-
 """Chapter 6: Data Visualization
 - Univariate Plots
   - Histogram, density: Guassian, skewed, or exponential?
@@ -13,6 +8,9 @@ from data import names, df, pd
   - Scatter Plot Matrix
     - Try to remove structured relationships (can draw a line through)
 """
+from matplotlib import pyplot as plt
+import numpy as np
+from get_data import names, df, pd
 # Univariate plots
 #df.hist(figsize=(15, 9))
 # plt.show()
@@ -41,4 +39,6 @@ def correlation_matrix():
 def scatter_plot_matrix():
     pd.plotting.scatter_matrix(df, figsize=(15, 9))
     plt.show()
-# scatter_plot_matrix()
+
+
+scatter_plot_matrix()

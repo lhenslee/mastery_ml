@@ -7,7 +7,7 @@
 - Correlations
 - Skewness
 """
-from data import df
+from get_data import df
 
 
 print('df head')
