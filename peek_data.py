@@ -1,4 +1,5 @@
-"""Chapter 5
+"""
+Chapter 5
 - Peek at your data
 - Dimensions of data
 - Data types

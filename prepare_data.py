@@ -1,4 +1,5 @@
-"""Chapter 7: Prepare data
+"""
+Chapter 7: Prepare data
 - Rescale data
   - All data has range of 0-1
 - Standardization: Transform to a standard Gaussian distribution

@@ -1,4 +1,5 @@
-"""Chapter 6: Data Visualization
+"""
+Chapter 6: Data Visualization
 - Univariate Plots
   - Histogram, density: Guassian, skewed, or exponential?
   - Box: Good to check skewed. Dots are outliers
